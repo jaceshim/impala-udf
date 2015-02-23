@@ -1,8 +1,9 @@
 package com.gsshop.r2.udf;
 
+import org.apache.hadoop.hive.ql.exec.UDF;
 import org.apache.hadoop.io.Text;
 
-public class PrdDealListFromOrderInform {
+public class PrdDealListFromOrderInform extends UDF {
 	public PrdDealListFromOrderInform(){
 		
 	}
