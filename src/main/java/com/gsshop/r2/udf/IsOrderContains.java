@@ -39,6 +39,7 @@ public class IsOrderContains extends UDF {
 				}
 				if(ordprds.contains(targetprd)) result.set(true);
 			}
+			
 		}
 
 		return result;
